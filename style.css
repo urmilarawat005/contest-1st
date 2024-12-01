@@ -1,0 +1,209 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+}
+
+#navigation {
+    justify-content: space-between;
+}
+
+#navigation,
+a,
+#start {
+    background-color: #fcaf02;
+    text-decoration: none;
+    padding: 10px;
+    display: flex;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1;
+
+}
+
+.nav-right {
+    display: flex;
+    flex-direction: row;
+}
+
+.nav-right {
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    color: black;
+    width: 33%;
+    justify-content: space-between;
+    font-size: 20px;
+}
+
+a {
+    color: black;
+}
+
+#heading {
+    padding: 30px;
+    color: white;
+}
+
+#con {
+    margin-left: 30px;
+    color: white;
+    padding: 5px;
+}
+
+#footer,
+.foot {
+    background-color: #fcaf02;
+    color: black;
+}
+
+#container {
+    display: flex;
+    justify-content: space-between;
+}
+
+#image {
+    transform: scaleX(-1);
+    width: 570px;
+}
+
+#photo {
+    margin-top: 50px;
+    margin-left: -200px;
+}
+
+#login {
+    padding: 6px;
+    margin: 20px;
+    background-color: #fcaf02;
+    width: 140px;
+    border-radius: 30px;
+    position: relative;
+    margin-left: 35px;
+
+}
+
+#submitform {
+    padding: 20px 40px;
+    margin: 20px auto;
+    display: block;
+    background-color: #fcaf02;
+    border-radius: 30px;
+    font-weight: 700;
+}
+
+div #contact {
+    color: #fcaf02;
+    margin-left: 33px;
+}
+
+.placed input::placeholder {
+    background-color: black;
+    color: #fcaf02;
+    padding: 20px;
+}
+
+table,
+th,
+td {
+    font-size: 1em;
+    border-left: 2px solid rgb(248, 159, 4) !important;
+    border-right: 2px solid #fcaf02;
+    border-collapse: collapse;
+    color: #fcaf02;
+    padding: 20px;
+    margin-left: 50px;
+    margin-bottom: 40px;
+}
+
+td {
+    border: none;
+}
+
+th {
+    border-top: 2px solid #fcaf02;
+    border-bottom: 2px solid #fcaf02;
+}
+
+
+#table {
+    width: 92vw;
+}
+
+.table1 {
+    width: 40px;
+    text-align: center;
+    align-items: center;
+}
+
+.table2 {
+    width: 300px;
+}
+
+.sr,
+.foots {
+    text-align: center;
+}
+
+.foots {
+    color: black;
+}
+
+.text2 {
+    width: 569px;
+    border: 1px solid goldenrod;
+    border-radius: 10cap;
+    margin-left: 32px;
+    margin-right: 32px;
+    margin-top: 20px;
+    padding: 8px;
+    background-color: black;
+
+}
+
+.parent {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.text {
+    margin-left: 32px;
+    margin-right: 32px;
+    margin-top: 20px;
+    padding: 8px;
+    background-color: black;
+    border: 1px solid goldenrod;
+    border-radius: 10cap;
+    width: 94vw;
+}
+
+
+tbody tr th {
+    border: 1px solid yellow;
+}
+
+
+
+.nav_text {
+    font-size: 26px;
+}
+
+.inner_nav_text {
+    position: relative;
+}
+
+.inner_nav_text::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color: #000;
+    z-index: 1;
+    width: 100%;
+    height: 2px;
+}
